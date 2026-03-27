@@ -677,30 +677,30 @@
 
 title: blank
 first_name: An
-middle_name:
+middle_name: 
 last_name: Yu
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
 description: >
-  A simple academic homepage.
+  A simple, whitespace theme for academics.
 
 footer_text: >
   Powered by Jekyll with al-folio theme. Hosted by GitHub Pages.
 
-keywords: academic, ai, computer vision
+keywords: jekyll, academic, portfolio
 lang: en
 icon: ⚛️
 
 url: https://An_Yu.github.io
-baseurl: ""   # ⚠️ 关键修复（你原来是错的）
+baseurl: ""   # ✅ 修复
 
 last_updated: false
 back_to_top: true
 
 # -----------------------------------------------------------------------------
-# Socials（你刚才要的）
+# Socials（新增）
 # -----------------------------------------------------------------------------
 
 github_username: CrazyGeG
@@ -721,6 +721,9 @@ repo_theme_dark: dark
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
+socials_in_search: true
+posts_in_search: true
+bib_search: true
 
 max_width: 930px
 
@@ -728,8 +731,8 @@ max_width: 930px
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog
-blog_description: personal blog
+blog_name: al-folio
+blog_description: academic blog
 permalink: /blog/:year/:title/
 
 pagination:
@@ -753,14 +756,30 @@ markdown: kramdown
 highlighter: rouge
 
 # -----------------------------------------------------------------------------
-# Plugins
+# Plugins（⚠️ 保持和你原来一致，避免依赖问题）
 # -----------------------------------------------------------------------------
 
 plugins:
+  - jekyll-3rd-party-libraries
+  - jekyll-archives-v2
+  - jekyll-cache-bust
+  - jekyll-email-protect
   - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-socials
-  - jekyll/scholar
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
 
 # -----------------------------------------------------------------------------
 # Scholar
@@ -778,3 +797,4 @@ scholar:
 enable_darkmode: true
 enable_math: true
 enable_medium_zoom: true
+enable_progressbar: true
