@@ -4,7 +4,7 @@
 cv_pdf: /assets/pdf/Resume_AN_YU.pdf  # path to your CV PDF file
 email: ayu@albany.edu # your email address
 # inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: false # comment this line to hide the RSS icon
+# rss_icon: false # comment this line to hide the RSS icon
 github_username: CrazyGeG
 linkedin_username: an-yu-487a91121
 scholar_userid: RpMAAAAJ # your Google Scholar ID
