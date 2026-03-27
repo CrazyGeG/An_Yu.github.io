@@ -33,7 +33,7 @@ back_to_top: true # set to false to disable the back to top button
 
 github_username: CrazyGeG
 # google_scholar: try-RpMAAAAJ
-LinkedIn: an-yu-487a91121
+linkedin: an-yu-487a91121
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -58,7 +58,7 @@ external_services:
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
+rss: false
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
