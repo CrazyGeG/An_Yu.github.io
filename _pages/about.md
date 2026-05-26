@@ -22,7 +22,7 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 10 # leave blank to include all the blog posts
 ---
 I am a Ph.D. student in [Computer Science](https://www.albany.edu/computer-science)  at the [University at Albany, SUNY](https://www.albany.edu/), working in the [Computer Vision and Machine Learning (CVML) Laboratory](https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab) under the supervision of [Prof. Ming-Ching Chang](https://www.albany.edu/computer-science/faculty/ming-ching-chang). 
 
