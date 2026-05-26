@@ -58,9 +58,8 @@ cv:
         start_date: 2023-04
         end_date: 2023-08
     Awards:
-      -   name: John J. Sullivan Award from the College of Nanotechnology, Science, and Engineering
-          date: 2026
-          awarder: University at Albany - SUNY
+      -   date: 2026
+          awarder: John J. Sullivan Award from the College of Nanotechnology, Science, and Engineering, University at Albany - SUNY
         
     # Publications:
     #   - title: "FAVE: A Structured Benchmark for Fine-Grained Audio-Visual Temporal Evaluation in Multimodal LLMs"
